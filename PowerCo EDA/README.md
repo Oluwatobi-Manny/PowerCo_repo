@@ -60,6 +60,7 @@ origin_up = code of the electricity campaign the customer first subscribed.
 
 pow_max = subscribed power *churn = has the client churned over the next 3 months
 
+
 **price_df**
 
 id = client company identifier
@@ -90,7 +91,9 @@ The EDA involves the following steps:
         client_df = pd.read_csv(client_url, engine='python')
         price_df = pd.read_csv(price_url, engine='python')
         ```
+
 ![client_df](<Images/Screenshot (204).png>)
+
 ![price_df](<Images/Screenshot (203).png>)
 
 
@@ -98,10 +101,13 @@ The EDA involves the following steps:
 - **Data visualization:** Create visualizations to explore data distributions and relationships.
         - **Plotting the categorical columns of client_df by churn rates**
 ![Has gas by churn](Images/has_gas_by_churn.jpg)  
+
         - **Plotting the distribution of numerical columns of client_df**
 ![net margin on power subscription](<Images/Screenshot (206).png>)
+
         - **Plotting stacked bars of columns by churn rates**
 ![Churn rate by has gas](<Images/Screenshot (208).png>)
+
         - **Plotting box plots of columns by churn rates**
 ![Gas consumption 12 months](<Images/Screenshot (210).png>)
 
