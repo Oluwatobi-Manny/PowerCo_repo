@@ -99,16 +99,16 @@ The EDA involves the following steps:
 
 - **Summary statistics:** Calculate summary statistics for numerical variables.
 - **Data visualization:** Create visualizations to explore data distributions and relationships.
-        - **Plotting the categorical columns of client_df by churn rates**
+- **Plotting the categorical columns of client_df by churn rates**
 ![Has gas by churn](Images/has_gas_by_churn.jpg)  
 
-        - **Plotting the distribution of numerical columns of client_df**
+- **Plotting the distribution of numerical columns of client_df**
 ![net margin on power subscription](<Images/Screenshot (206).png>)
 
-        - **Plotting stacked bars of columns by churn rates**
+- **Plotting stacked bars of columns by churn rates**
 ![Churn rate by has gas](<Images/Screenshot (208).png>)
 
-        - **Plotting box plots of columns by churn rates**
+- **Plotting box plots of columns by churn rates**
 ![Gas consumption 12 months](<Images/Screenshot (210).png>)
 
 
