@@ -92,24 +92,28 @@ The EDA involves the following steps:
         price_df = pd.read_csv(price_url, engine='python')
         ```
 
-![client_df](<Images/Screenshot (204).png>)
+![client_df](<PowerCo EDA/Images/Screenshot (204).png>)
 
-![price_df](<Images/Screenshot (203).png>)
+![price_df](<PowerCo EDA/Images/Screenshot (203).png>)
 
 
 - **Summary statistics:** Calculate summary statistics for numerical variables.
 - **Data visualization:** Create visualizations to explore data distributions and relationships.
 - **Plotting the categorical columns of client_df by churn rates**
-![Has gas by churn](Images/has_gas_by_churn.jpg)  
+
+![Has gas by churn](<PowerCo EDA/Images/has_gas_by_churn.jpg>)  
 
 - **Plotting the distribution of numerical columns of client_df**
-![net margin on power subscription](<Images/Screenshot (206).png>)
+
+![net margin on power subscription](<PowerCo EDA/Images/Screenshot (206).png>)
 
 - **Plotting stacked bars of columns by churn rates**
-![Churn rate by has gas](<Images/Screenshot (208).png>)
+
+![Churn rate by has gas](<PowerCo EDA/Images/Screenshot (208).png>)
 
 - **Plotting box plots of columns by churn rates**
-![Gas consumption 12 months](<Images/Screenshot (210).png>)
+
+![Gas consumption 12 months](<PowerCo EDA/Images/Screenshot (210).png>)
 
 
 **Expected Outcomes:**
@@ -171,4 +175,5 @@ A function is ran to pick the most model suitable in terms of the following metr
 For Train-test split, size of test is 20% percent of data with shuffled ones. VIF and Recursive Elimination methods were used to remove columns with high linearity to avoid multicollinearity.
 
 The top 5 most important features were also selected.
+
 ![Important features](<PowerCo PM/Image/Screenshot (216).png>)
